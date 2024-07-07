@@ -8,19 +8,19 @@
     <link rel="stylesheet" href="mediaqueries.css">
 </head>
 <body>
-    <nav id="desktop-nav" > 
-        <div class= "logo" > Anshul Jagtap </div>
-         <div>
+    <nav id="desktop-nav"> 
+        <div class="logo">Anshul Jagtap</div>
+        <div>
             <ul class="nav-links">
-                <li> <a href="#about">About</a></li> 
-                <li> <a href="#experience">Experience</a></li> 
-                <li> <a href="#projects">Projects</a></li> 
-                <li> <a href="#contact">Contact</a></li> 
+                <li><a href="#about">About</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-         </div>
+        </div>
     </nav>
-    <nav id ="hamburger-nav">
-        <div class= "logo" > Anshul Jagtap </div>
+    <nav id="hamburger-nav">
+        <div class="logo">Anshul Jagtap</div>
         <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="toggleMenu()">
                 <span></span>
@@ -28,173 +28,70 @@
                 <span></span>
             </div>
             <div class="menu-links">
-                <li> <a href="#about" onclick="toggleMenu()">About</a></li> 
-                <li> <a href="#experience" onclick="toggleMenu()">Experience</a></li> 
-                <li> <a href="#projects" onclick="toggleMenu()">Projects</a></li> 
-                <li> <a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="experience.html" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="projects.html" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
             </div>
-
         </div>
     </nav>
     <section id="profile">
         <div class="section_pic_container">
-            <img src="./assets/profile-pic.png" alt="Anshul Jagtap Profile picture"> <!--Add new profile pic here-->
+            <img src="./assets/profile-pic.png" alt="Anshul Jagtap Profile picture">
         </div>
         <div class="section__text">
-            <p class="section__text__p1"> Hello, I'm</p>
-            <h1 class="title"> Anshul Jagtap</h1>
-            <p class="section__text__p2"> Software Developer/Computer Scientist</p>
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Anshul Jagtap</h1>
+            <p class="section__text__p2">Software Developer/Computer Scientist</p>
             <div class="btn_container">
-                <button class="btn btn-color-2" 
-                onclick="window.open('/Users/anshuljagtap/Documents/GitHub/Peronal-Website/assets/Anshul Jagtap Resume.pdf')">
-                    Download Resume
-                </button>
-                <button class="btn btn-color-1" 
-                onclick="location.href='./#contact'">
-                    Contact
-                </button>
+                <button class="btn btn-color-2" onclick="window.open('/Users/anshuljagtap/Documents/GitHub/Personal-Website/assets/Anshul Jagtap Resume.pdf')">Download Resume</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact</button>
             </div>
             <div id="social_container">
-                <img src="./assets/linkedin.png" 
-                alt="Linkedin Profile" 
-                class="icon" 
-                onclick=" location.href='https://www.linkedin.com/in/anshul-jagtap-958b71214/'">
-
-                <img src="./assets/github.png" 
-                alt="GitHub Profile" 
-                class="icon" 
-                onclick=" location.href='https://github.com/anshuljagtap'">
+                <img src="./assets/linkedin.png" alt="Linkedin Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/anshul-jagtap-958b71214/'">
+                <img src="./assets/github.png" alt="GitHub Profile" class="icon" onclick="location.href='https://github.com/anshuljagtap'">
             </div>
         </div>
     </section>
     <section id="about">
-        <p class="section__text__p1"> Behind the code</p>
-        <h1 class="title"> About me</h1>
+        <p class="section__text__p1">Behind the code</p>
+        <h1 class="title">About me</h1>
         <div class="section_container">
             <div class="section_pic_container">
-                <img src="./assets/about-pic.png" 
-                alt="Profile picture" 
-                class="about-pic"/> <!--add ur own pic later-->
+                <img src="./assets/about-pic.png" alt="Profile picture" class="about-pic">
             </div>
             <div class="about-details-container">
                 <div class="about-containers">
-                  <div class="details_container">
-                    <img
-                      src="./assets/experience.png"
-                      alt="Experience icon"
-                      class="icon"
-                    />
-                    <h3>Experience</h3>
-                    <p>Entry Level <br />Software Development</p>
-                  </div>
-                  <div class="details_container">
-                    <img
-                      src="./assets/education.png"
-                      alt="Education icon"
-                      class="icon"
-                    />
-                    <h3>Education</h3>
-                    <p>University of California,Santa Cruz
-                        <br> Junior 
-                        <br>B.Sc. Computer Science
-                        <br>Minor. Technology and Information Management
-                    </p>
-                  </div>
+                    <div class="details_container">
+                        <img src="./assets/experience.png" alt="Experience icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>Entry Level <br>Software Development</p>
+                    </div>
+                    <div class="details_container">
+                        <img src="./assets/education.png" alt="Education icon" class="icon">
+                        <h3>Education</h3>
+                        <p>University of California, Santa Cruz<br>Junior<br>B.Sc. Computer Science<br>Minor. Technology and Information Management</p>
+                    </div>
                 </div>
                 <div class="text-container">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing 
-                        elit. Nulla nesciunt id quidem repellendus 
-                        odio, atque soluta qui quo natus aperiam 
-                        velit. Quod magnam officiis corrupti ea 
-                        asperiores aperiam iusto ad obcaecati 
-                        facere assumenda eos rem libero tempore 
-                        commodi molestias officia, fugit 
-                        suscipit, unde, odit iste? Quam cum 
-                        facilis dignissimos! Quibusdam?
-                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nesciunt id quidem repellendus odio, atque soluta qui quo natus aperiam velit. Quod magnam officiis corrupti ea asperiores aperiam iusto ad obcaecati facere assumenda eos rem libero tempore commodi molestias officia, fugit suscipit, unde, odit iste? Quam cum facilis dignissimos! Quibusdam?</p>
                 </div>
             </div>
         </div>
-        <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-      />
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'">
     </section>
-    <section id="experience">
-        <h1 class="title">Experience</h1>
-        <div class="experience-container">
-            <!-- Experience item with logo -->
-            <div class="experience-item">
-                <div class="experience-logo">
-                    <img src="./assets/company-logo-1.png" alt="Company Logo" class="company-logo">
-                </div>
-                <div class="experience-details">
-                    <h2>AKHETONICS | Software Engineer Intern</h2>
-                    <p class="experience-location"> Berlin, Germany</p>
-                    <p class="experience-dates">June 2024 - August 2024</p>
-                    <ul>
-                        <li>Responsibility or Achievement 1</li>
-                        <li>Responsibility or Achievement 2</li>
-                        <li>Responsibility or Achievement 3</li>
-                    </ul>
-                </div>
-            </div>
-            <!-- Repeat for other experiences, remember to replace `company-logo-1.png` with actual logo files -->
-            <div class="experience-item">
-                <div class="experience-logo">
-                    <img src="./assets/company-logo-2.png" alt="Company Logo" class="company-logo">
-                </div>
-                <div class="experience-details">
-                    <h2>Baskin Engineering | Undergraduate Researcher</h2>
-                    <p class="experience-location">Santa Cruz, California</p>
-                    <p class="experience-dates">January 2024 - Present</p>
-                    <ul>
-                        <li>Developing aerial robotic systems for on-demand
-                            wind sensing in the lower atmosphere</li>
-                        <li>Using Raspberry Pi, arducopter and pixhawk to develop an autonomous quad copter to measure how external factors affect
-                            the drone .</li>
-                        <li>Building hardware, performing experiments, programming (Matlab, physical models), and data analysis.</li>
-                    </ul>
-                </div>
-            </div>
-            <!-- Additional experience items with logos -->
-            <div class="experience-item">
-                <div class="experience-logo">
-                    <img src="./assets/company-logo-3.png" alt="Company Logo" class="company-logo">
-                </div>
-                <div class="experience-details">
-                    <h2>Digital Convergence Technology</h2>
-                    <p class="experience-location">Pune, India</p>
-                    <p class="experience-dates">August 2023 - September 2023</p>
-                    <ul>
-                        <li>Worked with Linux command line to execute basic and complex commands through the terminal to manage files and user settings. Installed different operating systems.</li>
-                        <li>Studied CPU architecture in depth to learn about embedded systems software. Learned how data is stored in server rooms (On-Premise storage) and how it interacts with software in general and the cloud.</li>
-                        <li>Gained basic understanding of cloud computing and AWS (model/framework).</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="experience-item">
-                <div class="experience-logo">
-                    <img src="./assets/company-logo-4.png" alt="Company Logo" class="company-logo">
-                </div>
-                <div class="experience-details">
-                    <h2>Opulence Money</h2>
-                    <p class="experience-location">Pune, India</p>
-                    <p class="experience-dates">June 2021-August 2021</p>
-                    <ul>
-                        <li>Managed Stocks, analyzed stock market with respect to technical and fundamental analysis, monitored stock related market trends and movements in the sensex.</li>
-                        <li>Executed short term trades, portfolio management and invested in mutual funds.</li>
-                        <li>Enhanced my professional speaking abilities and presentation skill with clients.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+    <section id="contact">
+        <h1 class="title">Contact Me</h1>
+        <form id="contact-form">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <input type="text" id="phone" name="phone" placeholder="Your Phone Number" required>
+            <button type="submit">Submit</button>
+        </form>
     </section>
     
-    
-    
+
+
     <script src="script.js"></script>
 </body>
 </html>

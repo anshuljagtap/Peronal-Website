@@ -396,3 +396,109 @@ section{
 .experience-details {
     flex-grow: 1; 
 }
+
+/* PROJECTS SECTION */
+#projects {
+    background-color: #f9f9f9; /* Light grey background for the section */
+    color: #333; /* Text color */
+    padding: 40px 0;
+}
+
+.section__text__p1 {
+    font-size: 1.5em;
+    text-align: center;
+    color: #777; /* Lighter text for the subtitle */
+    margin-bottom: 0; /* Reduces space between the subtitle and title */
+}
+
+.title {
+    text-align: center;
+    font-size: 2.5em;
+    color: #333;
+    margin-top: 5px; /* Minor adjustment for spacing */
+}
+
+.experience-details-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Allows containers to wrap on smaller screens */
+    padding: 20px;
+}
+
+.about-containers {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Spacing between each project */
+}
+
+.details-container {
+    background: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    padding: 20px;
+    width: 30%; /* Sets the width of each project box */
+    margin-top: 20px;
+}
+
+.article-container {
+    display: flex;
+    justify-content: center;
+    overflow: hidden; /* Keeps images within the container bounds */
+    border-radius: 8px; /* Rounds the corners of the image container */
+}
+
+.project-img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.details-container:hover .project-img {
+    transform: scale(1.05); /* Slightly enlarges the image on hover */
+}
+
+.experience-sub-title {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.project-btn {
+    background-color: #48617e; /* Matching button color with accent */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.project-btn:hover {
+    background-color: #3a4e6b; /* Darkens the button on hover */
+}
+
+
+/* General Section Styles */
+section {
+    margin-bottom: 50px; /* Adds space below each section */
+}
+
+/* Specific to Experience and Projects Section */
+#experience, #projects {
+    margin-bottom: 80px; /* Increased space below these sections */
+}
+
+/* Ensure no overflow and proper padding */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevents horizontal scroll */
+}
+
