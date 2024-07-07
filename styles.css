@@ -399,36 +399,36 @@ section{
 
 /* PROJECTS SECTION */
 #projects {
-    background-color: #f9f9f9; /* Light grey background for the section */
-    color: #333; /* Text color */
+    background-color: #f9f9f9; 
+    color: #333; 
     padding: 40px 0;
 }
 
 .section__text__p1 {
     font-size: 1.5em;
     text-align: center;
-    color: #777; /* Lighter text for the subtitle */
-    margin-bottom: 0; /* Reduces space between the subtitle and title */
+    color: #777; 
+    margin-bottom: 0; 
 }
 
 .title {
     text-align: center;
     font-size: 2.5em;
     color: #333;
-    margin-top: 5px; /* Minor adjustment for spacing */
+    margin-top: 5px; 
 }
 
 .experience-details-container {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap; /* Allows containers to wrap on smaller screens */
+    flex-wrap: wrap; 
     padding: 20px;
 }
 
 .about-containers {
     display: flex;
     justify-content: center;
-    gap: 20px; /* Spacing between each project */
+    gap: 20px; 
 }
 
 .details-container {
@@ -436,25 +436,25 @@ section{
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     border-radius: 8px;
     padding: 20px;
-    width: 30%; /* Sets the width of each project box */
+    width: 30%; 
     margin-top: 20px;
 }
 
 .article-container {
     display: flex;
     justify-content: center;
-    overflow: hidden; /* Keeps images within the container bounds */
-    border-radius: 8px; /* Rounds the corners of the image container */
+    overflow: hidden; 
+    border-radius: 8px; 
 }
 
 .project-img {
     width: 100%;
     height: auto;
-    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+    transition: transform 0.3s ease; 
 }
 
 .details-container:hover .project-img {
-    transform: scale(1.05); /* Slightly enlarges the image on hover */
+    transform: scale(1.05); 
 }
 
 .experience-sub-title {
@@ -471,7 +471,7 @@ section{
 }
 
 .project-btn {
-    background-color: #48617e; /* Matching button color with accent */
+    background-color: #48617e; 
     color: white;
     border: none;
     border-radius: 5px;
@@ -481,7 +481,7 @@ section{
 }
 
 .project-btn:hover {
-    background-color: #3a4e6b; /* Darkens the button on hover */
+    background-color: #3a4e6b; 
 }
 
 
@@ -524,13 +524,13 @@ body, html {
 
 input[type="text"],
 input[type="email"],
-input[type="tel"], /* Including phone number field in the styling */
+input[type="tel"], 
 textarea {
     width: 100%;
     padding: 10px;
     margin-top: 10px;
     border: 2px solid black;
-    border-radius: 0; /* Consistency in border radius */
+    border-radius: 0; 
     box-sizing: border-box;
 }
 
@@ -592,4 +592,22 @@ button:hover {
     .contact-info {
         width: 100%;
     }
+}
+
+footer {
+    background-color: #333; /* Dark background for the footer */
+    color: #fff; /* White text color */
+    text-align: center; /* Center-align the text */
+    padding: 20px 0; /* Padding above and below the text */
+    font-size: 0.8em; /* Smaller text size for footer */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow for some depth */
+}
+
+footer a {
+    color: #fff; /* White color for links */
+    text-decoration: none; /* No underline */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline on hover for better interactivity */
 }
