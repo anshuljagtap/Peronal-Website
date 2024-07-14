@@ -421,8 +421,10 @@ section{
 .experience-details-container {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap; 
-    padding: 20px;
+    flex-wrap: wrap;
+    margin-top: -22px; 
+    padding: 5px;
+
 }
 
 .about-containers {
@@ -437,7 +439,8 @@ section{
     border-radius: 8px;
     padding: 20px;
     width: 30%; 
-    margin-top: 20px;
+   
+ 
 }
 
 .article-container {
@@ -601,6 +604,7 @@ footer {
     padding: 20px 0; /* Padding above and below the text */
     font-size: 0.8em; /* Smaller text size for footer */
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow for some depth */
+    clear: both;
 }
 
 footer a {
@@ -611,3 +615,4 @@ footer a {
 footer a:hover {
     text-decoration: underline; /* Underline on hover for better interactivity */
 }
+
