@@ -209,7 +209,7 @@ section{
 
 .icon{
     cursor:pointer;
-    height: 2rem;
+    height: 3rem;
 }
 
 /*PROFILE BUTTONS*/
@@ -283,11 +283,7 @@ section{
     border-radius: 2rem;
   }
   
-  .arrow {
-    position: absolute;
-    right: -5rem;
-    bottom: 2.5rem;
-  }
+
   
   .details_container {
     padding: 1.5rem;
